@@ -1,0 +1,9 @@
+app/etc/modules/Payone_Core.xml app/etc/modules/Payone_Core.xml
+app/etc/modules/Payone_Migrator.xml app/etc/modules/Payone_Migrator.xml
+app/code/community/Payone/Core/* app/code/community/Payone/Core/
+app/code/community/Payone/Migrator/* app/code/community/Payone/Migrator/
+
+app/design/adminhtml/default/default/layout/payone/* app/design/adminhtml/default/default/layout/productattachments.xml
+app/design/frontend/default/default/layout/productattachments.xml app/design/frontend/default/default/layout/productattachments.xml
+app/design/frontend/default/default/template/productattachments/* app/design/frontend/default/default/template/productattachments/
+js/productattachments/* js/productattachments/

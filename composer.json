@@ -1,0 +1,20 @@
+{
+    "name": "kirchbergerknorr/payone",
+    "description": "Product Attachments",
+    "keywords": ["magento", "payone", "payment"],
+    "homepage": "http://www.payone.de/plattform-integration/extensions/magento/",
+    "type": "magento-module",
+    "authors": [
+        {
+            "name": "PAYONE",
+            "email": ""
+        },
+        {
+            "name": "Susanne Krieg",
+            "email": "sk@kirchbergerknorr.de"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+        }
+}
