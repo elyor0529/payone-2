@@ -90,7 +90,8 @@ class Payone_Core_Model_Observer_Sales_Order
         $payment = $observer->getEvent()->getPayment();
 
         if(!$payment->getOrder()->getCustomerIsGuest()) {
-            $customer = $payment->getOrder()->getCustomer();
+      
+            $customer = Mage::getModel('customer/customer')->load($payment->getOrder()->getCustomerId());
             $customer->setPayoneLastPaymentMethod($payment->getMethod());
             $customer->save();
         }
